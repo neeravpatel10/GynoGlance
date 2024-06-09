@@ -57,11 +57,12 @@ _Below is an example of how you can instruct your audience on installing and set
 
 4. Step up the models by running them in Google Colab
 
-5.Run the Flask_Server before that add you auth key for ngrok and use the public url and update it in the ML_dijango\myproject\myapp\views.py file
+5.Run the Flask_Server before that add you auth key for ngrok and use the public url 
+  and update it in the ML_dijango\myproject\myapp\views.py file
 
-6. After all steps defined above you can run command `npm start` to run application at `localhost:5000`.
+ 6. After all steps defined above you can run command `npm start` to run application at `localhost:5000`.
 
-7.In the terminal start the Djanog server
+ 7.In the terminal start the Djanog server
 ```sh
 python manage.py runserver
 
