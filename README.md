@@ -1,47 +1,45 @@
 
-<h1 align="center"><b>GynoGlance</b></h1>
-
+<h1 align="center">GynoGlance</b></h1>
 <div align="center">
-
-  <h3 align="center"> GynoGlance- We Care She Wins</h3
+  <h3 align="center">GynoGlance🙍‍♀️ - We Care She Wins</h3>
+</div>
 
 ---
-
-## The motivation:
+## 💫 The Motivation:
 A new report published by UNICEF and WaterAid found that more than a third of girls in South Asia miss school during their periods, mainly due to a lack of access to toilets and pads in schools and no proper education about menstruation. The UN has recognized menstrual hygiene as a global public health and human rights issue, globally 1.2 billion women lack access to basic sanitation and hygiene. So we decided to end the Period-Poverty and long-run stigma by educating girls and providing healthcare facilities to them.
 
+## 💫 How it Works :
+We are revolutionizing women's healthcare by providing personalized feedback, comprehensive analysis, and period cycle tracking, addressing the insecurities and social stigma that often deter women from seeking help. Our platform offers a secure and supportive environment where women can access their MRI scan results and find the nearest hospitals and gynecologists for their medical needs. With MRI scans, users can easily detect and manage PCOD/PCOS, common conditions affecting many young women.
+In addition, our platform features a blog section where She Winners can share their stories and raise awareness about societal stereotypes. This space empowers women to showcase their knowledge and inspire others, fostering a community where each girl can make a meaningful impact on society. Join us in transforming women's healthcare and breaking down barriers for a healthier, more informed future.<br><br>
+🌟Data Collection and Preparation: We used a publicly available dataset mentioned above containing 234 ultrasound images with 1363 labels, images are labeled into two classes: "PCOS" and "No PCOS." The dataset was split into training and testing sets to ensure robust model evaluation.
+🌟Model Selection: We chose YOLOv8 for its superior performance in object detection tasks. YOLOv8x architecture allows for real-time detection and classification, making it ideal for medical image analysis.<br><br>
+🌟Training the Model: The training process involved feeding the labeled ultrasound images into the YOLOv8 model. We applied various data augmentation techniques to enhance the model's generalization capabilities and prevent overfitting.<br><br>
+🌟Evaluation and Testing: After training, the model was evaluated on the test set to assess its accuracy, precision, recall, and overall performance. Fine-tuning was performed to optimize the model further. Achieved a test accuracy of 90%.<br><br>
+🌟Deployment: The trained model was then integrated into a user-friendly application, allowing healthcare professionals to upload ultrasound images and receive instant diagnostic results.<br><br>
 
+## 💫 Technologies Used :
 
-## How it works :
-
-  We have here to modernized our women healthcare system by providing the personalized feedbacks, analysis, mood tracking, period cycle traking to  women, who hesitate because of their insecurities and long run social stigma.
-  Through our platform she can `Track her Period Cycle`,  Get her `Mood Analysis` and she will also get to access the nearest hospitals and gynaecologists for their medical problems. Through our platform only user can `Schedule Appointments` with doctors and get consultancy at home only.
-  We also have the blog sections where the **Shewinners** can write the blogs to aware the world about different streotypes, Through this section we are giving a platform to showcase their knowledge and help each girl to contribute in a constructive manner in the society.
-
-
-## Technologies Used :
-
-1. **Frontend frameworks** : `React` `SASS` `react-router-dom` `react-toastify` `CSS3`
+1. **Frontend frameworks** : `React` `SASS` `react-router-dom` `react-toastify` `CSS3`  `Flask`
 
 2. **Authenciation**       : `Firebase`
 
-3. **Database and storage**: `Firestore` `MongoDB`
+3. **Database and storage**: `Firestore` 
 
-4. **Services**            : `Azure` `Google Maps API` `Postman` `Kaggle` `netlify` 
+4. **Services**            : `Azure` `Google Maps API` `Postman` `Kaggle`  
 
-5. **Deployment**          : `Docker` `FastAPI`
+5. **Deployment**          : `Docker` 
 
 6. **ML Frameworks**       : `Numpy` `Pandas` `Tensorflow` `Sklearn` `nltk` `yolo8`
 
-<!-- GETTING STARTED -->
-## Getting Started
+
+## 💫 Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ---
 
-### Installation
+## 💫Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This project doesn't rely on any external dependencies or services._
 
@@ -55,16 +53,14 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
    
 3. Now you have define own firebase project config at `firebase/firebaseconfig.js`.
+![WhatsApp Image 2024-06-09 at 14 54 07_575afe1b](https://github.com/neeravpatel10/GynoGlance/assets/118677906/9210a3a2-6035-4522-847d-914d91c66d78)
 
-  ![image](https://user-images.githubusercontent.com/86917304/183728317-30372103-f0d7-4e99-b12c-7f0cd825ea18.png)
 
-4. After all steps defined above you can run command `npm start` to run application at `localhost:3000`.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+4. After all steps defined above you can run command `npm start` to run application at `localhost:5000`.
 
 ---
 
-## Welcome Your Web app
+## 💫 Welcome Your Web app
 
 ![55](https://github.com/neeravpatel10/GynoGlance/assets/118677906/270fd6d0-31c8-4bad-8cc1-15af63c3aac1)
 
@@ -92,9 +88,7 @@ _Below is an example of how you can instruct your audience on installing and set
 ---
 ![44](https://github.com/neeravpatel10/GynoGlance/assets/118677906/acc2d479-6cda-4d5d-9f46-6d11a75737d4)
 
-
-
-## Contact
+## 💫 Contact
 
 Team Name - NARS HACKERS
 
@@ -103,24 +97,19 @@ Leader - [Neerav V Patel](patelneerav07@gmail.com)
 Project Link: [Link](https://github.com/neeravpatel10/GynoGlance)
 
 
-## Team Members: 
+## 💫 Team Members: 
 
-- [AAnkitha joshi](joshiankitha94@gmail.com)
+- [Ankitha Anand Joshi](joshiankitha94@gmail.com)
+  
 - [Reshna Nandipi](nandipireshna010@gmail.com)
+  
 - [K G Shreya](kgshreya2003@gmail.com)
 
-
-
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## 💫Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-*
 * [Favicon Converter](https://favicon.io/favicon-converter/)
 * [Firebase](https://firebase.google.com/)
 * [Img Shields](https://shields.io)
