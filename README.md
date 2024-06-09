@@ -27,9 +27,8 @@ In addition, our platform features a blog section where She Winners can share th
 
 4. **Services**            : `Azure` `Google Maps API` `Postman` `Kaggle`  
 
-5. **Deployment**          : `Docker` 
 
-6. **ML Frameworks**       : `Numpy` `Pandas` `Tensorflow` `Sklearn` `nltk` `yolo8`
+5. **ML Frameworks**       : `Numpy` `Pandas` `Tensorflow` `Sklearn` `nltk` `yolo8`
 
 
 ## 💫 Getting Started
@@ -45,18 +44,28 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Pranshu321/Placed.git
+   git clone https://github.com/neeravpatel10/GynoGlance.io
    ```
 2. Now install all npm packages.
    ```sh
     npm i 
    ```
    
+   
 3. Now you have define own firebase project config at `firebase/firebaseconfig.js`.
 ![WhatsApp Image 2024-06-09 at 14 54 07_575afe1b](https://github.com/neeravpatel10/GynoGlance/assets/118677906/9210a3a2-6035-4522-847d-914d91c66d78)
 
+4. Step up the models by running them in Google Colab
 
-4. After all steps defined above you can run command `npm start` to run application at `localhost:5000`.
+5.Run the Flask_Server before that add you auth key for ngrok and use the public url and update it in the ML_dijango\myproject\myapp\views.py file
+
+6. After all steps defined above you can run command `npm start` to run application at `localhost:5000`.
+
+7.In the terminal start the Djanog server
+```sh
+python manage.py runserver
+
+```
 
 ---
 
